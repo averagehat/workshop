@@ -4,7 +4,7 @@ Step 1:
 -------
 
 ```bash
-git clone https://github.com/vdbwrair/vartable
+git clone https://github.com/vdbwrair/workshop
 cd vartable
 bash install.sh $PWD/miniconda
 # add PATH export command as explained 
