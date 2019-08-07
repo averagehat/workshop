@@ -5,12 +5,12 @@ Step 1:
 
 ```bash
 git clone https://github.com/vdbwrair/workshop
-cd vartable
+cd workshop
 bash install.sh $PWD/miniconda
 # add PATH export command as explained 
 ```
 
-We'll do everything form the vartable directory
+We'll do everything form the workshop directory
 ```bash
 ```
 ![img](https://i.stack.imgur.com/EmgN3.gif)
