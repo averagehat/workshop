@@ -32,6 +32,21 @@ Python 3.7.3
 
 Vim
 ----
+
+NeoVim
+-------
+curl -kLO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
+chmod u+x nvim.appimage
+mkdir -p $HOME/bin
+cp ./nvim.appimage $HOME/bin/nvim 
+
+git clone https://github.com/averagehat/dot-files
+mkdir -p ~/.config/nvim/
+cp -r dot-files/.config/nvim/init.vim ~/.config/nvim
+curl -kfLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    
+# make sure $HOME/bin is in PATH
 **setup**  
 `cp init.vim ~/.vimrc`  
 
