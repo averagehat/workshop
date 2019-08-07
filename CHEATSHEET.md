@@ -1,13 +1,13 @@
 Contents
 -------
-* [Conda](#Conda)
-* [Vim](#Vim)
+* [Conda](#conda)
+* [Vim](#vim-and-neovim)
     * [Configuration](#configuration)
     * [Colon Commands](#colon-commands)
     * [Buffers](#buffers)
     * [AutoComplete](#autocomplete)
     * [Modes](#modes)
-* [Tmux](#Tmux)
+* [Tmux](#tmux)
 
 Conda
 ------
@@ -37,7 +37,7 @@ List your environments:
 ```bash
 conda env list
 ```
-
+# Vim and Neovim
 ### Configuration
 Neovim configuration file is `~/.config/nvim/init.vim`  
 The vim configuration file is `~/.vimrc`  
